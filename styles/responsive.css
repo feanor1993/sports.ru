@@ -1,0 +1,16 @@
+@media all and (max-width: 600px) {
+    #wrapper {
+        margin: 0;
+    }
+
+    .conceded_goals, .goals {
+        display: none;
+    }
+}
+
+@media all and (max-width: 300px) {
+    .win, .draw, .lose {
+        display: none;
+    }
+
+}

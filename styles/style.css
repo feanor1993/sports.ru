@@ -1,0 +1,74 @@
+@import "responsive.css";
+#wrapper{
+ margin: 17px 17px 0 17px;
+}
+table {
+    width: 100%;
+    border-top: 1px solid #dadada;
+    border-spacing: 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+th {
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
+    height: 30px;
+    font-family: 'Roboto bold', sans-serif;
+    color: #386493;
+}
+
+th:nth-child(2) {
+    border-right: 1px solid #dadada;
+}
+
+th:last-child {
+    background: #f9f9f7;
+}
+
+td {
+    border-bottom: 1px solid #dadada;
+    text-align: center;
+    width: 50px;
+    height: 30px;
+}
+
+td:first-child {
+    width: 40px;
+}
+
+#flag {
+    width: 16px;
+    height: 12px;
+}
+
+.myTeam {
+    width: 330px;
+    min-width: 150px;
+    text-align: left;
+    border-right: 1px solid #dadada;
+}
+
+a {
+    text-decoration: none;
+    color: #386493;
+}
+#info span{
+    font-family: 'Roboto bold', sans-serif;
+}
+
+.score {
+    background: #f9f9f7;
+}
+
+.first {
+    background: #78d49e;
+}
+
+.second {
+    background: #caeed8;
+}
+
+.fourth {
+    background: #ff99b0;
+}
